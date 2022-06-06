@@ -20,7 +20,6 @@ public class PromotionHandlerContext implements ApplicationContextAware {
             handlerMap.put(PromotionStrategy, PromotionHandler);
         });
     }
-
     public PromotionHandler getPromotionHandler(String PromotionStrategy) {
         return handlerMap.get(PromotionStrategy);
     }

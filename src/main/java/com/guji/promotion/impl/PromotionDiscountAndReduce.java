@@ -4,7 +4,6 @@ import com.guji.entity.Fruit;
 import com.guji.entity.VO.GoodsVO;
 import com.guji.entity.VO.OrderVO;
 import com.guji.promotion.PromotionHandler;
-import com.guji.promotion.PromotionStrategy;
 import com.guji.promotion.PromotionType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;

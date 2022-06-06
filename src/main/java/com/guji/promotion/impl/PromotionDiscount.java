@@ -32,7 +32,6 @@ public class PromotionDiscount implements PromotionHandler {
             } else {
                 totalPrice += fruit.getPrice() * goodsVO.getCount();
             }
-
         }
         return totalPrice;
     }
