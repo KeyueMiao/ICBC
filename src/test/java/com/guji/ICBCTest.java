@@ -23,7 +23,7 @@ public class ICBCTest {
     @Test
     public void test_ICBC() {
         //请输入优惠模式：1:不打折，2:草莓打八折，3:草莓打八折并且满100减10 (输入其他默认为不打折)
-        int score = 1;
+        int score = 3;
 
         //1.准备一些测试数据(水果名需要为spring容器中的bean名)
         GoodsVO apple = new GoodsVO("apple", 9);    //苹果及数量
