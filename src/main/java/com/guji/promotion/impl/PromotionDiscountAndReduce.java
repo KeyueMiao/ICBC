@@ -42,7 +42,8 @@ public class PromotionDiscountAndReduce implements PromotionHandler {
             }
 
         }
-        int reducePrice = (totalPrice / 100) * 1000;
+        //计算满100减10的扣减金额(单位依旧是分)
+        int reducePrice = (totalPrice /(100*1000) ) * 1000;
 
         return totalPrice - reducePrice;
     }
